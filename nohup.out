@@ -1,0 +1,12 @@
+./Keylogger.py: line 1: from: command not found
+./Keylogger.py: line 2: import: command not found
+./Keylogger.py: line 5: syntax error near unexpected token `('
+./Keylogger.py: line 5: `date_time = datetime.datetime.now().strftime(("%Y-%m-%d : %H-%M-%S"))'
+2020-09-17 : 10-53-39
+Key.cmd
+s
+Key.ctrl_l
+Key.esc
+2020-09-17 : 10-54-37
+Key.enter
+Key.esc
