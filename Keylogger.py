@@ -60,7 +60,7 @@ def send_email():
     # Infos pour le mail
     fromaddr = "quentin.rivollat@gmail.com"
     toaddr = "quentin.rivollat@etu.unige.ch"
-    password = "U2hW3vc5"
+    password = "..."    # Should add an input for the user
 
     msg = MIMEMultipart()
     msg['From'] = fromaddr              # Origine
