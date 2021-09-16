@@ -51,3 +51,5 @@ Some uses of a keylogger are:
 Feel free to contribute to fix any problems, or to submit an issue!
 
 Please note, this repo is for educational purposes only. No contributors, major or minor, are to fault for any actions done by this program.
+
+This README was inspired from GiacomoLaw's repo. Click [here](https://github.com/GiacomoLaw/Keylogger/blob/master/README.md) for more detail.
