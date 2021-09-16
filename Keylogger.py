@@ -8,6 +8,11 @@ import threading
 import socket
 import smtplib
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 # Date actuelle de sauvegarde du fichier : eg. : 2020-09-17 09:26:13
 date_time = datetime.datetime.now().strftime(("%Y-%m-%d : %H-%M-%S"))
 
@@ -58,9 +63,9 @@ def is_connected():
 
 def send_email():
     # Infos pour le mail
-    fromaddr = "quentin.rivollat@gmail.com"
-    toaddr = "quentin.rivollat@etu.unige.ch"
-    password = "..."    # Should add an input for the user
+    fromaddr = os.getenv('FROM_ADDR')
+    toaddr = os.getenv('TO_ADDR')
+    password = os.getenv('PASSWORD')
 
     msg = MIMEMultipart()
     msg['From'] = fromaddr              # Origine
